@@ -9,6 +9,7 @@ import OnboardingPage from './pages/onboarding';
 import Header from './components/Header';
 import { Toaster } from 'sonner';
 
+
 function App() {
   return (
     <Router>
@@ -29,5 +30,6 @@ function App() {
     </Router>
   );
 }
+
 
 export default App;
