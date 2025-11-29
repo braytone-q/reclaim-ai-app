@@ -38,7 +38,7 @@ Because your story deserves to be heard, and your evidence deserves to be bullet
 
 ## 🎯 Overview
 
-Reclaim AI addresses the growing crisis of digital violence against women through two integrated pillars:
+Reclaim AI addresses the growing crisis of digital violence against individuals through two integrated pillars:
 
 1. **Digital Safety Learning Hub** -  micro-courses with AI-powered tutoring, interactive quizzes, and reward systems
 2. **AI Evidence Collection & Reporting System** - Secure, encrypted vault for documenting abuse with automated harm detection and legal report generation
