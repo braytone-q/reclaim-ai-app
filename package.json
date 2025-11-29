@@ -11,7 +11,10 @@
     "preview": "vite preview --host 0.0.0.0",
     "build:watch": "vite build --watch > build.log 2>&1",
     "watch:errors": "node dala-internal-watch-build-errors.js",
-    "preview:dev": "concurrently \"npm run build:watch\" \"npm run watch:errors\" \"npm run preview\""
+    "preview:dev": "concurrently \"npm run build:watch\" \"npm run watch:errors\" \"npm run preview\"",
+    "setup:ai-keys": "echo 'Setting up AI API keys...' && read -p 'Enter your OpenAI API key: ' OPENAI_KEY && supabase secrets set OPENAI_API_KEY=$OPENAI_KEY && read -p 'Enter your Google Vision API key: ' GOOGLE_KEY && supabase secrets set GOOGLE_CLOUD_VISION_API_KEY=$GOOGLE_KEY && echo 'API keys configured!'",
+    "deploy:functions": "supabase functions deploy analyze-evidence && supabase functions deploy chat-support",
+    "logs:functions": "supabase functions logs analyze-evidence --tail"
   },
   "packageManager": "bun@1.2.22",
   "dependencies": {

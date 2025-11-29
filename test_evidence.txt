@@ -1,0 +1,5 @@
+This is a test evidence file for GBV analysis.
+It contains threats and harassment.
+"I will hurt you if you don't do what I say."
+"You are worthless."
+This should be detected as High or Medium severity.
